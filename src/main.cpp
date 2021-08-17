@@ -1,14 +1,16 @@
 #include <iostream>
 #include <sstream>
+#include "../include/List.hpp"
+#include "../include/Empleado.hpp"
 
 int main(){
 
-    std::string num = "22";
+    List<Empleado*>* hola;
 
-    int numero = std::stoi(num);
+    hola->insert(new Empleado);
+    
 
-
-    std::cout << numero << std::endl;
+    
 
     return 0;
 }

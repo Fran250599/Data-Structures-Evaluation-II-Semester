@@ -13,6 +13,7 @@
                 "-g",
                 "C:\\Dev\\C++\\Datos\\Tarea1\\src\\Empleado.cpp",
                 "C:\\Dev\\C++\\Datos\\Tarea1\\src\\Interface.cpp",
+                "C:\\Dev\\C++\\Datos\\Tarea1\\src\\System.cpp",
                 "C:\\Dev\\C++\\Datos\\Tarea1\\src\\main.cpp",
             ],
             "group": {

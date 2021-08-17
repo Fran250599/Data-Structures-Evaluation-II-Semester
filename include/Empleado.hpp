@@ -5,15 +5,16 @@ using std::string;
 
 class Empleado {
 
+private:
     string id;
     string firstLName;
     string secondLName;
     string name;
     string bornDate;
-    string auxSalary;
+    string grossSalary;
     int salary;
     
-
+public:
     Empleado();
     Empleado(string, string,string, string,string, string);
 
@@ -22,7 +23,8 @@ class Empleado {
     string getSecondLName() { return this->secondLName; }
     string getName() { return this->name; }
     string getBornDate(){ return this->bornDate; }
-    string getSalary(){ return this->auxSalary; }
+    string getSalary(){ return this->grossSalary; }
 
-    int salarioNeto();
+    int salaryDeduction();
+    int netSalary();
 };
